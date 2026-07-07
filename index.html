@@ -204,12 +204,12 @@
     
                         <tbody class="bmi-tbody">
                           <tr>
-                            <td class="calc-td"><input class="no-border" type="number" placeholder="Height"></td>
+                            <td class="calc-td"><input class="no-border" id="bmi-height" type="number" placeholder="Height"></td>
                             
-                            <td class="calc-td"><input class="no-border" type="number" placeholder="Weight/kg"></td>
+                            <td class="calc-td"><input class="no-border" id="bmi-weight" type="number" placeholder="Weight/kg"></td>
                           </tr>
                           <tr>
-                            <td class="calc-td"><input  class="no-border" type="number" placeholder="Age"></td>
+                            <td class="calc-td"><input class="no-border" id="bmi-age" type="number" placeholder="Age"></td>
                            
                             <td class="calc-td">
                               <select id="gender" name="gender" required>
@@ -237,6 +237,7 @@
                     <div class="bmi-btn-head">
                         <button class="btn-1" id="bmi-btn">Calculate</button>
                     </div>
+                    <div id="bmi-result" style="margin-top: 15px; font-weight: bold; font-size: 1.1rem; color: #ff3c1e; text-align: center; min-height: 24px;"></div>
                 </div>
             </div>
         </div>
@@ -366,5 +367,6 @@
        </div>
        <p id="copy-right">All right reserved @Fitness 2024</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
