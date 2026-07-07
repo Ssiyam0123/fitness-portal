@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // Calculate BMI (height is in cm, weight in kg)
-      const heightInMeters = height / 100;
+      // Calculate BMI (height is in feet, weight in kg)
+      const heightInMeters = height * 0.3048;
       const bmi = (weight / (heightInMeters * heightInMeters)).toFixed(1);
 
       let status = "";

@@ -505,7 +505,13 @@ option{
     background: rgba(255, 255, 255, 0);
     padding-right: 30%;
     margin-left: 10px;
-   
+}
+.no-border:focus,
+#gender:focus,
+#factor:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 #bmi-btn{
     width: 40%;
