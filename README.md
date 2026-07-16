@@ -1,6 +1,6 @@
-# fitness-portal
+﻿# fitness-portal
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://siyam-io.github.io/fitness-portal/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge)](https://siyam-fitness-portal.vercel.app////)
 
 A modern, responsive fitness club landing page featuring workout videos, trainer profiles, tailored membership pricing plans, and an interactive, dynamic BMI calculator.
 
@@ -16,3 +16,6 @@ A modern, responsive fitness club landing page featuring workout videos, trainer
 - JavaScript (Vanilla ES6)
 - Fonts: Inter & Roboto (Google Fonts)
 - Icons: Font Awesome
+
+
+
